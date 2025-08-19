@@ -52,6 +52,14 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				/* Scientific Color System */
+				nature: {
+					primary: 'hsl(var(--nature-primary))',
+					secondary: 'hsl(var(--nature-secondary))',
+					accent: 'hsl(var(--nature-accent))'
+				},
+				earth: 'hsl(var(--earth-brown))',
+				scientific: 'hsl(var(--scientific-blue))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +70,11 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-nature': 'var(--gradient-nature)',
+				'gradient-earth': 'var(--gradient-earth)',
+				'gradient-scientific': 'var(--gradient-scientific)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
